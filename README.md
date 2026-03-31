@@ -1,8 +1,8 @@
 # zpai-april-fools
 2026년 ZP 만우절 이벤트
 
-FE : Vue
-BE : Flask
+- FE : Vue
+- BE : Flask
 
 ## 시나리오
 
