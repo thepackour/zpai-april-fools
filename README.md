@@ -63,8 +63,8 @@ help 치면 다음 명령어와 함께 “아직 완성되지 않은 명령어�
 베타 모드가 활성화된 상태에서 아무거나 치면 에러코드와 함께 에러 발생
 
 ### 본인 확인 방안
-    
-    ```python
+
+    ##### 백엔드 #####
     from flask import Flask, request, jsonify
     import jwt
     import datetime
@@ -88,9 +88,8 @@ help 치면 다음 명령어와 함께 “아직 완성되지 않은 명령어�
     
     if __name__ == "__main__":
         app.run(host="0.0.0.0", port=5000)
-    ```
-    
-    ```python
+---
+    ##### 복호화 코드 #####
     import jwt
     
     SECRET_KEY = "youfoundsecretkeysowhat"
@@ -102,5 +101,3 @@ help 치면 다음 명령어와 함께 “아직 완성되지 않은 명령어�
         print(decoded)
     except jwt.InvalidTokenError:
         print("유효하지 않은 코드")
-    
-    ```
