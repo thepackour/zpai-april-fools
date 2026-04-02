@@ -1,7 +1,6 @@
 <template>
   <span class="april-fools">이 사이트는 만우절 이벤트 목적으로 제작되었습니다. 자세한 사항은
-  <router-link to="/april-fools">ai.zeropage.org/april-fools</router-link>
-  을 확인하세요.</span>
+  <router-link to="/april-fools">ai.zeropage.org/april-fools</router-link>에서 확인하세요.</span>
   <div :style="{ fontFamily: randomFont }" class="title" :class="['slide-up', { show: showTitle }]">ZPAI</div>
   <div class="terminal" v-if="showTerminal">
     <div class="chat" ref="chatContainer">
