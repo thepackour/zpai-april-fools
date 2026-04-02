@@ -1,4 +1,4 @@
-# zpai-april-fools-FE
+# zpai-april-fools
 2026년 ZP 만우절 이벤트
 
 - FE : Vue
